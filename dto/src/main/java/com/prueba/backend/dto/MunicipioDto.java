@@ -1,8 +1,8 @@
 
 package com.prueba.backend.dto;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * The type Municipio dto.
@@ -13,7 +13,7 @@ public class MunicipioDto {
     /**
      * The Codigo.
      */
-    @JsonProperty("id")
+    @JsonAlias("id")
     private String codigo;
     /**
      * The Nombre.
