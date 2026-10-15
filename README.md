@@ -13,8 +13,9 @@ Antes de ejecutar la aplicación, es necesario tener instalado:
 
 No es necesario instalar Maven, ya que el proyecto incluye Maven Wrapper.
 
-Para comprobar la instalación de Java, lanzar este comando: ```
-cmd java -version 
+Para comprobar la instalación de Java, lanzar este comando: 
+```cmd 
+java -version 
 ```
 Si se tienen varias versiones de java instaladas, revisar que se utiliza la de la jdk17.
 
@@ -66,7 +67,7 @@ Espera a que Spring Boot indique que la aplicación se ha iniciado correctamente
 
 Salvo que se haya configurado otro puerto, Spring Boot utiliza el puerto `8080`.
 
-### 3. Endpoints disponibles
+##Endpoints disponibles
 
 Una vez iniciado el backend, estará disponible en `http://localhost:8080`, salvo que se configure otro puerto.
 
