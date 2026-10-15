@@ -67,7 +67,7 @@ Espera a que Spring Boot indique que la aplicación se ha iniciado correctamente
 
 Salvo que se haya configurado otro puerto, Spring Boot utiliza el puerto `8080`.
 
-##Endpoints disponibles
+## Endpoints disponibles
 
 Una vez iniciado el backend, estará disponible en `http://localhost:8080`, salvo que se configure otro puerto.
 
